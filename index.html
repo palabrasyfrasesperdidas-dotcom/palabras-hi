@@ -480,7 +480,8 @@
         }
 
         const imgPath = `plantilla${currentBlockNum}_hi.jpg`;
-        const videoPath = `plantilla${currentBlockNum}_video_hi.mp4`;
+        // Corrección aplicada aquí para incluir el guion bajo antes del número:
+        const videoPath = `plantilla_${currentBlockNum}_video_hi.mp4`;
 
         const bgImg = new Image();
         bgImg.src = imgPath;
